@@ -3,7 +3,7 @@ import Home from "./Home/Home";
 
 const AppRoutes = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Qore-test">
       <Routes>
         <Route path="/" element={<Home />}></Route>
       </Routes>
