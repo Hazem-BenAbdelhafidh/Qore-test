@@ -16,3 +16,5 @@ npm install
 ```bash
 npm run dev
 ```
+
+You can check this website live [here](https://hazem-benabdelhafidh.github.io/Qore-test/).
