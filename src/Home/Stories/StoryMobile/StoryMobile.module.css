@@ -1,0 +1,41 @@
+.story {
+  display: block;
+}
+
+.story:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: var(--color-neutral-20);
+  margin-top: 20px;
+}
+
+.story_title {
+  font-family: var(--font-alternate);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--size-32);
+}
+
+.story img {
+  width: 100px;
+  height: 100px;
+}
+
+.story_info {
+  display: flex;
+  gap: 16px;
+}
+.story_content {
+  color: var(--color-neutral-60);
+  font-size: var(--size-14);
+}
+
+.story_button {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .story {
+    display: none;
+  }
+}
