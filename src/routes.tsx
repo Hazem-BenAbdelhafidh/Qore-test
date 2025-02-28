@@ -6,6 +6,7 @@ const AppRoutes = () => {
     <BrowserRouter basename="/Qore-test">
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/about" element={<div>About Page</div>}></Route>
       </Routes>
     </BrowserRouter>
   );
