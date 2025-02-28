@@ -1,6 +1,7 @@
 .burger_button {
   display: none;
   cursor: pointer;
+  z-index: 500;
 }
 
 @media (max-width: 768px) {
