@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
         <picture>
           <source media="(min-width: 768px)" srcSet={hero} />
-          <img src={heroMobile} alt="hero" />
+          <img src={heroMobile} alt="hero" loading="lazy" />
         </picture>
       </div>
     </section>

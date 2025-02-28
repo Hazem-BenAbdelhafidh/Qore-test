@@ -51,6 +51,7 @@ const Option = (props: Props) => {
             src={props.image}
             className={classes.option_image}
             alt={props.title}
+            loading="lazy"
           />
           <div className={classes.option_text}>
             <h3>{props.title}</h3>
