@@ -1,0 +1,19 @@
+.section {
+  width: 100%;
+  padding: 80px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_header {
+  font-size: var(--size-48);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-neutral-90);
+  line-height: var(--line-height-loose);
+  margin: 8px 0;
+}
+
+.section_container {
+  width: 80%;
+}
